@@ -1,3 +1,5 @@
 angular
   .module('miniRouting')
-  .controller();
+  .controller('settingsCtrl', function() {
+    
+  });
