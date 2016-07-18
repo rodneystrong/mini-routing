@@ -1,2 +1,5 @@
 angular
-  .module('miniRouting',['ui.router']);
+  .module('miniRouting',['ui.router'])
+  .config(function($stateProvider, $urlRouterProvider) {
+
+  });
