@@ -39,6 +39,6 @@ angular
         type: 'Reebok',
         color: 'Green',
         size: 'L'
-      },
+      }
     ];
   });

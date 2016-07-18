@@ -4,17 +4,17 @@ angular
     $stateProvider
       .state('home', {
         url:'/',
-        templateUrl: 'home.html',
+        templateUrl: '/views/home.html',
         controller: 'homeCtrl'
       })
       .state('settings',{
         url: '/settings',
-        templateUrl: 'settings.html',
+        templateUrl: '/views/settings.html',
         controller: 'settingsCtrl'
       })
       .state('products', {
         url: '/products/:id',
-        templateUrl: 'products.html',
+        templateUrl: '/views/products.html',
         controller: 'productsCtrl'
       });
       //This is a catch all for our routes.

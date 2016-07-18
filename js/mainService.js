@@ -1,2 +1,3 @@
 angular
-  .module('miniRouting');
+  .module('miniRouting')
+  .service();
