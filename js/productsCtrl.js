@@ -1,6 +1,6 @@
 angular
   .module('miniRouting')
-  .controller('productsCtrl', function($stateParams, productService) {
+  .controller('productsCtrl', function($stateParams, productService, $scope) {
     //in the code below, the 'id' is arbitrary.
     //it coincides with the id in our index.html
     if($stateParams.id === "shoes") {
